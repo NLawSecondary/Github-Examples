@@ -32,12 +32,12 @@ cd /workspace/tmp
 ### HTTPS
 
 ```sh
-git clone https://github.com/andrew-wc-brown/Github-Examples.git
+git clone https://github.com/NLawSecondary/Github-Examples.git
 cd GitHub-Examples
 ```
 
 > You'll need to generate a Personal Access Token (PAT)
-https://github.com/settings/token
+https://github.com/settings/tokens
 
 You will use the PAT as your password when you login
 
@@ -46,7 +46,7 @@ You will use the PAT as your password when you login
 ### SSH
 
 ```ssh
-git clone git@github.com:andrew-wc-brown/Github-Examples.git
+git@github.com:NLawSecondary/Github-Examples.git
 cd GitHub-Examples
 ```
 
@@ -85,7 +85,7 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 
 ```
 gh auth login
-gh repo clone andrew-wc-brown/Github-Examples
+gh repo clone NLawSecondary/Github-Examples
 ```
 
 ## Commits
